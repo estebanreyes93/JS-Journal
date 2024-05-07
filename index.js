@@ -1,4 +1,4 @@
-/*//testing console.log
+//testing console.log
 console.log(`Oye, brayan!`);
 console.log(`el brayan e duro`);
 
@@ -10,7 +10,7 @@ window.alert(`brayan e vacano`);
 //testing window.prompt
 window.prompt(`a u ok?`, `yes'nth`);
 window.prompt(`a u ok?`, `no'th`);
-*/
 
+//testing document.getElementById
 document.getElementById("myH1").textContent = `Oye, brayan!`;
-document.getElementById("myP").textContent = `el brayan e dios`;
+document.getElementById("myP").textContent = `el brayan e duro`;
