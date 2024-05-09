@@ -1,13 +1,19 @@
-let userName = "esteban";
-let userName2 = "Maria";
-let condition = true;
-let available = true;
-document.getElementById("myH1").textContent = `Hello, ${userName} , you are a 
-${condition ? "student" : "teacher"}`;
-if (condition) {
-  document.getElementById("myP").textContent = `Hello, ${userName2} , you are a 
-    Teacher`;
-} else {
-  document.getElementById("myP").textContent = `Hello, ${userName} , you are a 
-    student`;
-}
+//  aritmetic operatos =  operands (values, variables, etc..)
+//                        operatos (+ - * / ** % ++ --)
+//                        ex. 11 = x +5;
+
+let students = 30;
+// students = students + 1;
+// students + students - 1;
+// students = students * 2;
+// students = students / 3;
+// students = students ** 2;
+// students = students % 3;
+// let extraStudents = students %3;
+
+// students += 1;
+// students -= 1;
+// students *= 2;
+students /= 2;
+
+console.log(students);
