@@ -1,12 +1,13 @@
-//testing console.log
-console.log(`Oye, brayan!`);
-console.log(`el brayan e duro`);
-
-//testing window.alert
-window.alert(`hola, brayan`);
-window.alert(`el brayan e dios`);
-window.alert(`brayan e vacano`);
-
-//testing window.prompt
-window.prompt(`a u ok?`, `yes'nth`);
-window.prompt(`a u ok?`, `no'th`);
+let userName = "esteban";
+let userName2 = "Maria";
+let condition = true;
+let available = true;
+document.getElementById("myH1").textContent = `Hello, ${userName} , you are a 
+${condition ? "student" : "teacher"}`;
+if (condition) {
+  document.getElementById("myP").textContent = `Hello, ${userName2} , you are a 
+    Teacher`;
+} else {
+  document.getElementById("myP").textContent = `Hello, ${userName} , you are a 
+    student`;
+}
