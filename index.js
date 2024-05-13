@@ -28,7 +28,6 @@ console.log(`Your Name is ${firstName}
             ${email}`);
 
 //BOOLEANS Commonly used for true or false and if elses
-
 let online = false;
 let forSale = true;
 console.log(`Is this car for sale? ${forSale}?`);
