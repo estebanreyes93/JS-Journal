@@ -62,9 +62,15 @@
 // document.getElementById("p2").textContent = age;
 // document.getElementById("p3").textContent = student;
 
-let message = "Hello World";
-message = "Goodbye World";
+// let message = "Hello World";
+// message = "Goodbye World";
 
-let var1 = 10;
-let var2 = 20;
-alert(var1 + var2);
+// let var1 = 10;
+// let var2 = 20;
+// console.log(var1 + var2);
+
+//string
+
+let str = "Hello World";
+let str2 = "Goodbye World";
+let phrase = "Hello World Goodbye World ${str} ${str2}";
